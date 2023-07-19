@@ -1,5 +1,5 @@
 const URL = 'https://striveschool-api.herokuapp.com/api/product/'
-const APIKey = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE0MWZkNmY4MWI0MjAwMTM5YjI3YmYiLCJpYXQiOjE2ODU5NTYyMjQsImV4cCI6MTY4NzE2NTgyNH0.YdZrXrkUiWOJL0ZQ6MiAyvg6HWRi0bxrrIWpCKFlcB8"
+const APIKey = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDE0MWZkNmY4MWI0MjAwMTM5YjI3YmYiLCJpYXQiOjE2ODk3NTMzMTAsImV4cCI6MTY5MDk2MjkxMH0.EP_lTsrhXAAveyiEhHAMnkzCHcPHZ2UUVX-WZJeoptc"
 displayProducts = function(data) {
     let rowReference = document.getElementById('prodotti')
     data.forEach(data => {
